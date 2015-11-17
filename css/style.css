@@ -38,7 +38,7 @@ a:hover {
 	text-decoration: none;
 }
 /*  Header styles */
- 
+
 h1 {
 	font-size: 25px;
 }
@@ -479,7 +479,7 @@ section {
 	width: 100%;
 	height: 100%;
 }
-/*footer*/ 
+/*footer*/
 .footer-left {
 	width: 60%;
 	float: left;
@@ -668,7 +668,7 @@ section {
 	transition: all 0.5s;
 }
 
- 
+
 /*Subscribe form Starts*/
 .subscribe-box {
 	width: 410px;
@@ -1039,9 +1039,19 @@ section {
 	width: 100%;
 	float: left;
 	background: url(../images/donate-banner.jpg) 0 0 repeat;
-	padding: 500px 0px 0px;
+	padding: 480px 0px 0px;
 	min-height: 768px;
 }
+
+@media only screen and (max-width : 600px) {
+
+	.donate-block{
+		padding: 50px 0px 0px;
+
+}
+
+
+
 
 .pay-img {
 	width: 440px;
@@ -1087,9 +1097,9 @@ section {
 .other section {
 	margin-top: 200px;
 }
-    
-    
-    
+
+
+
     /*Gallery*/
 
 /* -- Examples -- */
@@ -1151,7 +1161,7 @@ section {
 }
 
 
-    
+
 /*================================>> RESPONSIVE STYLES <<========================================*/
 @media only screen and (max-width: 1024px) {
 	body {
